@@ -1,0 +1,17 @@
+services:
+  forecast-lens:
+    build: .
+    image: forecast-lens:latest
+    container_name: forecast-lens
+    ports:
+      - "3000:3000"
+    environment:
+      - AUTO_SEED=true
+      - BACKEND_URL=http://127.0.0.1:8000
+      - NEXT_PUBLIC_BACKEND_BASE=/api/backend
+    volumes:
+      - forecast-lens-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  forecast-lens-data:
