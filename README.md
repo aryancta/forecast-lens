@@ -167,21 +167,6 @@ Covers the scoring helpers, normalization layer, ingestion pipeline, and all RES
 
 ---
 
-## Screenshots
-
-> Screenshots can be dropped into `public/screenshots/` and referenced here. The whole app is polished for a dark-theme demo — try the dashboard, then drill into any event, then flip to Calibration for the judging story.
-
-```
-public/screenshots/
-├── dashboard.png       # landing dashboard with hero, metrics, charts, insights
-├── events.png          # event explorer with sortable table
-├── event-detail.png    # deep-dive page with history chart and signal gauge
-├── calibration.png     # reliability diagram + segment tables
-└── alerts.png          # ranked alerts with why-flagged popovers
-```
-
----
-
 ## Credits
 
 - Built for the **Zerve AI** hackathon.
